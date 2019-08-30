@@ -1,4 +1,5 @@
 require("../scss/index.scss");
-const foo = require("./foo/foo");
-foo("bar");
-console.log(foo.bar);
+const fooModule = require("./foo/foo");
+let foo = fooModule("bar");
+let fooElement = document.getElementById("foo");
+fooElement.innerHTML = foo.getFoo();

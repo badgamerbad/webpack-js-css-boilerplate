@@ -9,9 +9,9 @@ module.exports = {
 		filename: "main.js",
 		path: path.resolve(__dirname, "dist"),
 	},
-	// optimization: {
-	// 	minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
-	// },
+	optimization: {
+		minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+	},
 	mode: "development",
 	devtool: "inline-source-map",
 	plugins: [

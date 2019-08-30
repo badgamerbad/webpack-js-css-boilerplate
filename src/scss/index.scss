@@ -1,10 +1,15 @@
 $colors: (
     primary: #4d4d4d,
+    whitee: #f4f4f4,
 );
 
 body {
     background: map-get($map: $colors, $key: primary);
 }
 div {
-    color: map-get($map: $colors, $key: primary);
+    color: map-get($map: $colors, $key: whitee);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
 }
