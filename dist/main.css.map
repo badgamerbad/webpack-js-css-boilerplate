@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":";;;AAAA;EACE;AACF;AAAE;EACE;AAEJ,C","sources":["webpack://my-webpack-project/./src/foo/index.scss"],"sourcesContent":["body {\n  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);\n  h1 {\n    color: #ff8177;\n  }\n}\n"],"names":[],"sourceRoot":""}
